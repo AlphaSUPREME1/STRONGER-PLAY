@@ -5,12 +5,11 @@
 </head>
 <body style="margin:0;">
 <iframe id="game-frame" width="100%" height="600px" frameborder="0"></iframe>
-
 <script>
   const params = new URLSearchParams(window.location.search);
   const url = params.get('url');
-  if(url){
-    document.getElementById('game-frame').src = url;
+  if (url) {
+    document.getElementById('game-frame').src = decodeURIComponent(url);
   }
 </script>
 </body>
