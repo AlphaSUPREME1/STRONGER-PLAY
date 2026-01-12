@@ -10,12 +10,30 @@
     a { color:white; text-decoration:none; }
   </style>
 </head>
-  <body>
+<body>
 <h1>StrongerPlay</h1>
-<div id="games-container">LOADING...</div>
+<div id="games-container">LOADING…</div>
 
 <script>
-  document.getElementById("games-container").innerHTML = "JS IS RUNNING";
+const base = "/STRONGER-PLAY";
+
+fetch(base + "/games.json")
+  .then(res => {
+    document.getElementById("games-container").innerHTML = "Status: " + res.status;
+    return res.json();
+  })
+  .then(games => {
+    document.getElementById("games-container").innerHTML = "";
+    games.forEach(game => {
+      const p = document.createElement("p");
+      p.innerText = game.name;
+      document.getElementById("games-container").appendChild(p);
+    });
+  })
+  .catch(err => {
+    document.getElementById("games-container").innerHTML = "ERROR: " + err;
+  });
 </script>
+
 </body>
 </html>
