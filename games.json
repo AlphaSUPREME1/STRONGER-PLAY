@@ -1,8 +1,38 @@
 [
   {
-    "name": "Knife Hit",
+    "name": "Kitchen Smash",
     "category": "Action",
-    "thumbnail": "https://i.imgur.com/2yK6Y8x.png",
-    "url": "https://html5.gamedistribution.com/rvvASMiM/cb1b1a9a3a174f3bbff69f0b07d35d03/index.html"
+    "thumbnail": "https://jawalgames.com/assets/img/cgm/english/KitchenSmash.png",
+    "url": "https://jawalgames.com/cgm/english/KitchenSmash/"
+  },
+  {
+    "name": "Iceomatic",
+    "category": "Puzzle",
+    "thumbnail": "https://jawalgames.com/assets/img/cgm/english/iceomatic.png",
+    "url": "https://jawalgames.com/cgm/english/iceomatic/"
+  },
+  {
+    "name": "Crypto Cannon",
+    "category": "Shooting",
+    "thumbnail": "https://jawalgames.com/assets/img/cgm/english/CryptoCannon.png",
+    "url": "https://jawalgames.com/cgm/english/CryptoCannon/"
+  },
+  {
+    "name": "Classic Tetris",
+    "category": "Puzzle",
+    "thumbnail": "https://jawalgames.com/assets/img/cgm/english/game-tetris.png",
+    "url": "https://jawalgames.com/cgm/english/game-tetris/"
+  },
+  {
+    "name": "CutDunk",
+    "category": "Sports",
+    "thumbnail": "https://jawalgames.com/assets/img/cgm/english/CutDunk.png",
+    "url": "https://jawalgames.com/cgm/english/CutDunk/"
+  },
+  {
+    "name": "Find 3 Different",
+    "category": "Puzzle",
+    "thumbnail": "https://jawalgames.com/assets/img/cgm/english/Find3different.png",
+    "url": "https://jawalgames.com/cgm/english/Find3different/"
   }
 ]
