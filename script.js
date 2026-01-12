@@ -1,5 +1,4 @@
-const repo = window.location.pathname.split("/")[1]; 
-const base = "/" + repo;
+const base = "/STRONGER-PLAY";
 
 fetch(base + "/games.json")
   .then(res => {
@@ -26,6 +25,6 @@ fetch(base + "/games.json")
   })
   .catch(err => {
     document.getElementById("games-container").innerHTML =
-      "<p style='color:red'>Cannot load games.json</p>";
-    console.error("Load error:", err);
+      "<p style='color:red'>ERROR loading games.json</p>";
+    console.error(err);
   });
